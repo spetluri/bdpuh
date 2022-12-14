@@ -1,0 +1,112 @@
+{
+	"namespace": "bdpuh.ml100k.item",
+	"type": "record",
+	"name": "MovieInfo",
+	"fields": [{
+			"name": "movieId",
+			"type": "int"
+		},
+		{
+			"name": "movieTitle",
+			"type": "string"
+		},
+		{
+			"name": "releaseDate",
+			"type": "string"
+		}, {
+			"name": "videoReleaseDate",
+			"type": ["null", "string"]
+		},
+		{
+			"name": "imdbUrl",
+			"type": "string"
+		},
+		{
+			"name": "movieGenres",
+			"type": {
+
+				"type": "record",
+				"name": "movieGenresRecord",
+				"fields": [{
+						"name": "unknown",
+						"type": "boolean"
+					},
+					{
+						"name": "action",
+						"type": "boolean"
+					},
+					{
+						"name": "adventure",
+						"type": "boolean"
+					},
+					{
+						"name": "animation",
+						"type": "boolean"
+					},
+					{
+						"name": "childrens",
+						"type": "boolean"
+					},
+					{
+						"name": "comedy",
+						"type": "boolean"
+					},
+					{
+						"name": "crime",
+						"type": "boolean"
+					},
+					{
+						"name": "documentary",
+						"type": "boolean"
+					},
+					{
+						"name": "drama",
+						"type": "boolean"
+					},
+					{
+						"name": "fantasy",
+						"type": "boolean"
+					},
+					{
+						"name": "filmNoir",
+						"type": "boolean"
+					},
+					{
+						"name": "horror",
+						"type": "boolean"
+					},
+					{
+						"name": "musical",
+						"type": "boolean"
+					},
+					{
+						"name": "mystery",
+						"type": "boolean"
+					},
+					{
+						"name": "romance",
+						"type": "boolean"
+					},
+					{
+						"name": "sciFi",
+						"type": "boolean"
+					},
+					{
+						"name": "thriller",
+						"type": "boolean"
+					},
+					{
+						"name": "war",
+						"type": "boolean"
+					},
+					{
+						"name": "western",
+						"type": "boolean"
+					}
+				]
+			}
+		}
+
+
+	]
+}

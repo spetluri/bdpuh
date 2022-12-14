@@ -1,0 +1,22 @@
+{
+	"namespace": "bdpuh.ml100k.data",
+	"type": "record",
+	"name": "UserRating",
+	"fields": [{
+			"name": "userId",
+			"type": "int"
+		},
+		{
+			"name": "movieId",
+			"type": "int"
+		},
+		{
+			"name": "movieRating",
+			"type": "int"
+		}, {
+			"name": "timestamp",
+			"type": "long"
+		}
+
+	]
+}
